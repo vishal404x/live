@@ -51,7 +51,7 @@ function FacialExpression() {
     console.log(_expression);
   }
   useEffect(() => {
-    loadModels().then(startCamera);
+    // loadModels().then(startCamera);
   }, []);
 
   return (

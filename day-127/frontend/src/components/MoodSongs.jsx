@@ -27,7 +27,7 @@ const MoodSongs = () => {
 
   return (
     <div className="mood-songs">
-      <h2>MoodSong</h2>
+      <h2>Recommended Songs</h2>
       {Songs.map((song, indx) => (
         <div key={indx}>
           <div className="title">

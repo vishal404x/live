@@ -5,10 +5,10 @@ import MoodSongs from "./components/MoodSongs";
 
 function App() {
   return (
-    <App>
+    <div className="main-wrapper">
       <FacialExpression/>
       <MoodSongs/>
-    </App>
+    </div>
   );
 }
 
